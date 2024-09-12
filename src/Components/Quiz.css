@@ -1,0 +1,58 @@
+.App {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+}
+
+li:hover {
+    background-color: #ddd;
+}
+
+.selected {
+    background-color: #b3e5fc;
+}
+
+.button {
+    background-color: #0dbc72;
+    border-radius: 20px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.button-disable {
+    border-radius: 20px;
+    width: 20%;
+    cursor: not-allowed;
+}
+
+.result {
+    font-size: larger;
+    font-weight: bold;
+    background-color: #b3e5fc;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 30%;
+    padding: 10px 7px;
+}
+
+.retake-btn {
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 15px;
+    background-color: floralwhite;
+    cursor: pointer;
+}
+
+.retake-btn:hover, .retake-btn:focus {
+    background-color: antiquewhite;
+}
